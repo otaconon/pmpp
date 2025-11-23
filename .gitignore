@@ -1,0 +1,10 @@
+**.vcxproj
+**.vcxproj.filters
+*.sln
+**cmake_install.cmake
+build
+**CMakeFiles
+**Testing
+.vscode
+.venv
+.idea
