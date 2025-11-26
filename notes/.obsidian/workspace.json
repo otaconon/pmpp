@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "92cd731b7f1e3452",
+    "type": "split",
+    "children": [
+      {
+        "id": "82d5cb4e6ae7447b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa64793d3a32fad1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intro to CUDA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intro to CUDA"
+            }
+          },
+          {
+            "id": "14f7e5593d90bf96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intro to CUDA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intro to CUDA"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "acb990a4b290fea6",
+    "type": "split",
+    "children": [
+      {
+        "id": "90765af288f069a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd201107f3c59f4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d7f720cae78253cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9b40afd1f10ecd01",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aaf3b8c4c7d8d265",
+    "type": "split",
+    "children": [
+      {
+        "id": "046d9f032dc24541",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0ce712bc73a4f9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Screen Mapping.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Screen Mapping"
+            }
+          },
+          {
+            "id": "a59b444427c3d185",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Screen Mapping.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Screen Mapping"
+            }
+          },
+          {
+            "id": "e0d70169948992bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1360c37ec7e005bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Screen Mapping.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Screen Mapping"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "14f7e5593d90bf96",
+  "lastOpenFiles": [
+    "Exercises 1.md",
+    "Intro to CUDA.md",
+    "Welcome.md",
+    "matematyka_dyskretna/Tablica wzorów.md",
+    "matematyka_dyskretna/Baza wiedzy kolokwium 1.md",
+    "matematyka_dyskretna/Indukcja matematyczna.md",
+    "matematyka_dyskretna/kroliczki/Praca domowa 3 - IY3S1A Olbrys Maksymilian.md",
+    "matematyka_dyskretna/pdf/Praca domowa 3 - IY3S1A Olbrys Maksymilian.pdf",
+    "matematyka_dyskretna/pdf/images/Pasted image 20251124192348.png",
+    "matematyka_dyskretna/pdf/images/Pasted image 20251124191951.png",
+    "matematyka_dyskretna/pdf/images",
+    "matematyka_dyskretna/Praca domowa 3 - IY3S1A Olbrys Maksymilian.md",
+    "matematyka_dyskretna/Logika.md",
+    "matematyka_dyskretna/Rachunek predykatów.md",
+    "matematyka_dyskretna/pdf/Tablica wzorów.pdf",
+    "matematyka_dyskretna/pdf/Najwazniejsze.pdf",
+    "matematyka_dyskretna/pdf/Indukcja matematyczna.pdf",
+    "matematyka_dyskretna/Wykład 1.md",
+    "matematyka_dyskretna/pdf/Logika.pdf",
+    "matematyka_dyskretna/kroliczki/Praca domowa 2 - IY3S1A Olbryś Maksymilian (92248).md",
+    "analiza_matematyczna/Kolokwium 1 - Wzory.md",
+    "wstep_do_infromatyki/lab_04/src/cyb_03.bin",
+    "analiza_matematyczna/pdf/Kolokwium 1 - Wzory.pdf",
+    "analiza_matematyczna/Granica.md",
+    "algebra_liniowa/pdf/Kolokwium 1 - Wzory.pdf",
+    "algebra_liniowa/Ciało.md",
+    "wstep_do_infromatyki/lab_04/src/41.dSYM/Contents/Resources/Relocations/aarch64",
+    "matematyka_dyskretna/kroliczki/Praca domowa 1 - IY3S1A Olbrys Maksymilian.md",
+    "algebra_liniowa/Kolokwium 1 - Wzory.md",
+    "algebra_liniowa/Podstawowe definicje.md",
+    "algebra_liniowa/Grupy.md",
+    "algebra_liniowa/Logika.md",
+    "algebra_liniowa/Span and linear independance.md",
+    "algebra_liniowa/Span.md",
+    "algebra_liniowa/Przestrzenie wektorowe.md",
+    "algebra_liniowa/Zbiory liczbowe.md",
+    "algebra_liniowa/Pół grupy.md",
+    "algebra_liniowa/Polynomials.md",
+    "Pasted Image 20251018211254_693.png",
+    "analiza_matematyczna/krysicki_wlodarski/Untitled.canvas",
+    "images/rasterization_pipeline.png",
+    "images/screen_mapping.png",
+    "images/projection.png",
+    "images/clipping.png"
+  ]
+}

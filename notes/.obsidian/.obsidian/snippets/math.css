@@ -1,0 +1,19 @@
+.callout[data-callout="definition"] {
+  --callout-color: 220, 160, 109;
+  --callout-icon: lucide-book;
+}
+
+.callout[data-callout="theorem"] {
+  --callout-color: 255, 204, 0;
+  --callout-icon: lucide-book;
+}
+
+.callout[data-callout="lemma"] {
+  --callout-color: 100, 160, 250;
+  --callout-icon: lucide-lightbulb;
+}
+
+.callout[data-callout="proof"] {
+  --callout-color: 120, 200, 120;
+  --callout-icon: lucide-check;
+}

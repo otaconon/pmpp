@@ -1,5 +1,6 @@
 #pragma once
 
+namespace pmpp {
 #define CUDA_CHECK(call)                                  \
   do {                                                    \
     cudaError_t error = call;                             \
@@ -9,3 +10,8 @@
       exit(EXIT_FAILURE);                                 \
     }                                                     \
   } while (0)
+
+void sync_device() {
+  cudaDeviceSynchronize();
+}
+}
