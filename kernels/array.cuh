@@ -6,7 +6,7 @@
 #include <stdexcept>
 #include <vector>
 
-#include "vec_kernels.cuh"
+#include "array_kernels.cuh"
 #include "utils.cuh"
 
 namespace pmpp {
@@ -74,14 +74,14 @@ struct array {
 };
 
 template<typename T>
-std::vector<T> cpu_vec_add(std::vector<T>& u, std::vector<T>& v) {
+array<T> cpu_vec_add(std::vector<T>& u, std::vector<T>& v) {
   size_t N = u.size();
   if (v.size() != N) {
     throw std::invalid_argument("Input vectors must have the same size " + std::to_string(N));
   }
 
-  std::vector<T> out(N);
-  std::transform(std::execution::par, u.begin(), u.end(), v.begin(), out.begin(), std::plus<int>());
+  array<T> out{std::vector<T>(N)};
+  std::transform(std::execution::par, u.begin(), u.end(), v.begin(), out.values.begin(), std::plus<T>());
 
   return out;
 }
