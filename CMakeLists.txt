@@ -9,7 +9,6 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(Python_ROOT_DIR "C:/Users/maksy/AppData/Local/Python/pythoncore-3.14-64")
 
 find_package(Python 3.14 EXACT COMPONENTS Interpreter Development.Module REQUIRED)
-
 find_package(CUDAToolkit REQUIRED)
 
 add_subdirectory(kernels)
