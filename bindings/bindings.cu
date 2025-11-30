@@ -1,4 +1,4 @@
-#include <array.cuh>
+#include <Tensor.cuh>
 #include <pybind11/operators.h>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -9,7 +9,7 @@ namespace py = pybind11;
 
 template <typename T>
 void bind_pmpp_array(py::module_& m, const std::string& python_name) {
-  using ClassType = pmpp::array<T>;
+  using ClassType = pmpp::Tensor<T>;
   using ValueType = decltype(std::declval<ClassType>().values);
 
   py::class_<ClassType>(m, python_name.c_str())

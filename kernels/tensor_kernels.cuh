@@ -13,10 +13,27 @@ __global__ void vec_add_kernel(const T* A, const T* B, T* C, size_t N) {
 }
 
 template <typename T>
+__global__ void vec_sub_kernel(const T* A, const T* B, T* C, size_t N) {
+  uint32_t i = blockIdx.x * blockDim.x + threadIdx.x;
+
+  if (i < N) {
+    C[i] = A[i] - B[i];
+  }
+}
+
+template <typename T>
 __global__ void vec_mul_kernel(T* u, T x, size_t N) {
   uint32_t i = blockIdx.x * blockDim.x + threadIdx.x;
   if (i < N) {
     u[i] *= x;
+  }
+}
+
+template <typename T>
+__global__ void vec_div_kernel(T* u, T x, size_t N) {
+  uint32_t i = blockIdx.x * blockDim.x + threadIdx.x;
+  if (i < N) {
+    u[i] /= x;
   }
 }
 

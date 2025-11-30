@@ -1,4 +1,4 @@
-add_library(pmpp_kernels STATIC array.cu)
+add_library(pmpp_kernels STATIC Tensor.cu)
 
 target_include_directories(pmpp_kernels PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(pmpp_kernels PUBLIC CUDA::cudart_static)
