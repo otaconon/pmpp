@@ -13,6 +13,7 @@ find_package(CUDAToolkit REQUIRED)
 
 add_subdirectory(third_party/pybind11 EXCLUDE_FROM_ALL)
 add_subdirectory(third_party/googletest EXCLUDE_FROM_ALL)
+add_subdirectory(third_party/cccl EXCLUDE_FROM_ALL)
 
 add_subdirectory(kernels)
 #add_subdirectory(bindings)
