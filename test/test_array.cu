@@ -38,6 +38,12 @@ TEST(TestTensorMultiplication, Tensor1D) {
   EXPECT_EQ(u * x, (pmpp::Tensor<float>{3, 6, 9, 12}));
 }
 
+TEST(TestTensorMultiplication, Tensor2D) {
+  pmpp::Tensor<std::vector<float>> u{{1, 2, 3}, {3, 3, 3}, {4, 5, 6}};
+  pmpp::Tensor<std::vector<float>> v{{2, 2, 3}, {4, 3, 5}, {4, 5, 6}};
+
+}
+
 
 int main(int argc, char **argv) {
   testing::InitGoogleTest(&argc, argv);

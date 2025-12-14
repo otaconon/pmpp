@@ -73,6 +73,7 @@ std::vector<T> vec_mul(std::vector<T>& u, T x) {
   CUDA_CHECK(cudaMemcpy(u_d, u.data(), N * sizeof(T), cudaMemcpyHostToDevice));
 
   vec_mul_kernel<<<1, N>>>(u_d, x, N);
+  CUDA_CHECK(cudaGetLastError());
 
   CUDA_CHECK(cudaMemcpy(u.data(), u_d, N * sizeof(T), cudaMemcpyDeviceToHost));
 
@@ -103,6 +104,7 @@ std::vector<T> vec_add(const std::vector<T>& u, const std::vector<T>& v) {
   int num_blocks = (N + block_size - 1) / block_size;
 
   vec_add_kernel<<<num_blocks, block_size>>>(u_d, v_d, out_d, N);
+  CUDA_CHECK(cudaGetLastError());
 
   CUDA_CHECK(cudaMemcpy(out.data(), out_d, N * sizeof(T), cudaMemcpyDeviceToHost));
 
@@ -139,6 +141,7 @@ std::vector<std::vector<T>> matadd(const std::vector<std::vector<T>>& A, const s
   constexpr int block_size = 256;
   int num_blocks = (N + block_size - 1) / block_size;
   matadd_kernel<<<num_blocks, block_size>>>(A_d, B_d, C_d, N, M);
+  CUDA_CHECK(cudaGetLastError());
 
   CUDA_CHECK(cudaMemcpy(C.data(), C_d, bytes, cudaMemcpyDeviceToHost));
 
@@ -174,6 +177,7 @@ std::vector<std::vector<T>> matmul(const std::vector<std::vector<T>>& A, const s
   constexpr int block_size = 256;
   int num_blocks = (N + block_size - 1) / block_size;
   matmul_kernel<<<num_blocks, block_size>>>(A_d, B_d, C_d, M, N, K);
+  CUDA_CHECK(cudaGetLastError());
 
   CUDA_CHECK(cudaMemcpy(C.data(), C_d, M * K * sizeof(T), cudaMemcpyDeviceToHost));
 
